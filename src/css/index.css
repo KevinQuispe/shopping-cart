@@ -1,3 +1,4 @@
+/******** Estolos para la barra de navegacion ******/
 nav {
   background-color: #000;
   color: #fff;
@@ -19,7 +20,7 @@ nav > h2 {
   cursor: pointer;
 }
 
-/******** Items List ******/
+/******** Estilos para los Items List ******/
 
 .items-list {
   display: flex;
@@ -28,16 +29,18 @@ nav > h2 {
   text-align: center;
 }
 
-/****** Item  box *********/
+/****** Estilos Item box deprouctos *********/
 .item-box {
-  background-color: #fff;
+  background-color: #2ab3c8;
+  color: #fff;
   margin: 10px;
   padding: 20px;
-  width: 110px;
+  width: 300px;
   border-radius: 5px;
   border: 1px solid #ddd;
 }
 
+/******** Estitos para las cartidades ******/
 .item-quantity {
   color: #fff;
   background-color: #f0ad4e;
@@ -48,9 +51,10 @@ nav > h2 {
   position: relative;
   left: 40px;
 }
-
+/******** color para los precios ******/
 .item-price {
-  color: gray;
+  color: rgb(248, 241, 241);
+  z-index: auto;
 }
 
 .item-add-button {
@@ -79,6 +83,7 @@ nav > h2 {
   border: none;
   font-size: 11px;
   cursor: pointer;
+  margin-right: 4px;
 }
 
 /****** Shopping Cart ********/
@@ -90,10 +95,12 @@ nav > h2 {
 }
 
 .cart-count {
-  background-color: blue;
-  border-radius: 20px;
-  padding: 8px;
+  background-color: rgb(9, 193, 16);
+  border-radius: 10px;
+  padding: 4px;
+  margin-left: 10px;
 }
+
 .body{
   background-color: blue;
   border-radius: 20px;

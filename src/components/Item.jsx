@@ -55,17 +55,17 @@ export const Item = ({ name, price, id, imgUrl }) => {
 
       {quantityPerItem === 0 ? (
         <button className="item-add-button" onClick={() => addToCart()}>
-          + Add to cart
+          + Agregar
         </button>
       ) : (
         <button className="item-plus-button" onClick={() => addToCart()}>
-          + add more
+          + Agregar
         </button>
       )}
 
       {quantityPerItem > 0 && (
         <button className="item-minus-button" onClick={() => removeItem(id)}>
-          subtract item
+          - Eliminar
         </button>
       )}
     </div>

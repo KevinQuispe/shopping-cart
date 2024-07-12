@@ -16,17 +16,18 @@ export const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className="navbar navbar-dark">
       <Link to={"/"} style={navStyles}>
-        <h2>Tienda Compras</h2>
+        <h2>Tienda Online</h2>
       </Link>
       <ul className="nav-list">
         <Link to={"/cart"} style={navStyles}>
-          <li>
-            Cart items: <span className="cart-count">{quantity}</span>
+          <li  className="btn btn-danger">
+            Carrito:<span className="cart-count">{quantity}</span>
           </li>
         </Link>
       </ul>
     </nav>
+   
   );
 };
